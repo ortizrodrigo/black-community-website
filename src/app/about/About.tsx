@@ -1,12 +1,13 @@
-function About() {
-  return (
-    <div>
-    about  
-    </div>
-  )
-}
-import React from "react";
-import download11 from "./download-1-1.png";
+// function About() {
+//   return (
+//     <div>
+//     about  
+//     </div>
+//   )
+// }
+
+import "./About.css";
+import download11 from "./assets/download-1-1.png";
 import download1 from "./download-1.png";
 import download31 from "./download-3-1.png";
 import download41 from "./download-4-1.png";
@@ -15,7 +16,7 @@ import download61 from "./download-6-1.png";
 import images11 from "./images-1-1.png";
 import owenKnapper1 from "./owen-knapper-1.png";
 
-export const about = () => {
+export default function About() {
   return (
     <div className="bg-[#010125] overflow-hidden w-full min-w-[1340px] min-h-[2600px] relative">
       <div className="absolute top-0 -left-5 w-[1460px] h-[74px] bg-[#010133]" />

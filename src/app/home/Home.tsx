@@ -1,20 +1,20 @@
 import React from "react";
+import "./Home.css";
 import l0a06401 from "./6l0a0640-1.png";
 import DSZ21491 from "./DSZ-2149-1.png";
 import IMG69941 from "./IMG-6994-1.png";
 import image4 from "./image-4.png";
 import TOPIMAGE from "./rectangle-10.svg";
 
-function Home() {
-    return (
-      <div>
-      home 
-      </div>
-    )
-  }
+// function Home() {
+//     return (
+//       <div>
+//       home 
+//       </div>
+//     )
+//   }
   
-
-export const home = () => {
+export default function Home() {
   return (
     <div className="bg-[#202033] overflow-hidden w-full min-w-[1440px] min-h-[3646px] relative">
       <div className="top-[74px] w-[1440px] h-[852px] bg-[#d9d9d9] absolute left-0" />

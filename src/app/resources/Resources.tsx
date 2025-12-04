@@ -7,15 +7,15 @@ import polygon5 from "./polygon-5.svg";
 import polygon6 from "./polygon-6.svg";
 import polygon7 from "./polygon-7.svg";
 
-function Resources() {
-  return (
-    <div>
-    resources 
-    </div>
-  )
-}
+// function Resources() {
+//   return (
+//     <div>
+//     resources 
+//     </div>
+//   )
+// }
 
-export const resources = () => {
+export default function Resources() {
   return (
     <div className="bg-[#010133] overflow-hidden w-full min-w-[1440px] min-h-[5730px] relative">
       <div className="absolute top-[74px] -left-2.5 w-[1450px] h-[852px] bg-[#d9d9d9]" />
