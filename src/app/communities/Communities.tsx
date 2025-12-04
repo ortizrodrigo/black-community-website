@@ -6,15 +6,15 @@ import polygon22 from "./polygon-2-2.svg";
 import polygon23 from "./polygon-2-3.svg";
 import polygon2 from "./polygon-2.svg";
 
-function Communities() {
-  return (
-    <div>
-    communities
-    </div>
-  )
-}
+// function Communities() {
+//   return (
+//     <div>
+//     communities
+//     </div>
+//   )
+// }
 
-export const communities = () => {
+export default function Communities() {
   return (
     <div className="bg-[#000024] overflow-hidden w-full min-w-[1440px] min-h-[3242px] flex flex-col">
       <div className="w-[1460px] h-[74px] bg-[#010133]" />
